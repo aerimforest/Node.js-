@@ -1,4 +1,3 @@
-const { error } = require('console');
 const http = require('http');
 
 http.createServer((req, res) => {
