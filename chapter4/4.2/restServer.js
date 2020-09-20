@@ -68,7 +68,7 @@ http.createServer(async(req, res) => {
         }
         // 존재하지 않는 파일을 요청했거나 GET 메서드 요청이 아닌 경우
         res.writeHead(404);
-        return res.end('Not Found');
+        return res.end('NOT FOUND');
     } catch(err) { // 응답 과정에서 예기치 못한 에러가 발생한 경우
         console.error(err);
         res.writeHead(500);
