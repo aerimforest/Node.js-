@@ -7,5 +7,10 @@
         "start": "nodemon app"
     },
     "author": "aerim",
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies": {
+        "mysql2": "^2.2.5",
+        "sequelize": "^6.3.5",
+        "sequelize-cli": "^6.2.0"
+    }
 }
