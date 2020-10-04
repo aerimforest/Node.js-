@@ -7,7 +7,7 @@ const connect = () => {
     }
 
     // 몽구스를 사용하여 노드와 몽고디비 연결
-    mongoose.connect('mongodb://root:nodejsbook@localhost:27017/admin', {
+    mongoose.connect('mongodb://yerim:yerim0602!@localhost:27017/admin', {
         dbName: 'nodejs', // 실제 사용할 데이터베이스 이름
         useNewUrlParser: true,
         useCreateIndex: true,
